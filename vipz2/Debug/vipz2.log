@@ -1,0 +1,30 @@
+﻿  func.c
+C:\Users\Діма\source\repos\vipz2\vipz2\func.c(5,9): warning C4013: 'free' undefined; assuming extern returning int
+C:\Users\Діма\source\repos\vipz2\vipz2\func.c(17,69): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Діма\source\repos\vipz2\vipz2\func.c(30,31): warning C4028: formal parameter 1 different from declaration
+C:\Users\Діма\source\repos\vipz2\vipz2\func.c(87,57): warning C4013: 'malloc' undefined; assuming extern returning int
+C:\Users\Діма\source\repos\vipz2\vipz2\func.c(90,9): warning C4013: 'gets' undefined; assuming extern returning int
+C:\Users\Діма\source\repos\vipz2\vipz2\func.c(101,14): warning C4047: '=': 'student *' differs in levels of indirection from 'student **'
+C:\Users\Діма\source\repos\vipz2\vipz2\func.c(103,24): warning C4047: 'function': 'student **' differs in levels of indirection from 'student ***'
+C:\Users\Діма\source\repos\vipz2\vipz2\func.c(103,18): warning C4024: 'AddToBeg': different types for formal and actual parameter 1
+C:\Users\Діма\source\repos\vipz2\vipz2\func.c(107,28): warning C4047: 'function': 'student **' differs in levels of indirection from 'student ***'
+C:\Users\Діма\source\repos\vipz2\vipz2\func.c(107,22): warning C4024: 'AddToBeg': different types for formal and actual parameter 1
+C:\Users\Діма\source\repos\vipz2\vipz2\func.c(111,32): warning C4047: 'function': 'student **' differs in levels of indirection from 'student ***'
+C:\Users\Діма\source\repos\vipz2\vipz2\func.c(111,26): warning C4024: 'AddToBeg': different types for formal and actual parameter 1
+C:\Users\Діма\source\repos\vipz2\vipz2\func.c(135,18): warning C4047: '=': 'student *' differs in levels of indirection from 'student **'
+C:\Users\Діма\source\repos\vipz2\vipz2\func.c(138,22): warning C4047: '=': 'student *' differs in levels of indirection from 'student **'
+C:\Users\Діма\source\repos\vipz2\vipz2\func.c(141,28): warning C4047: '==': 'student *' differs in levels of indirection from 'student **'
+C:\Users\Діма\source\repos\vipz2\vipz2\func.c(143,35): warning C4047: 'function': 'student **' differs in levels of indirection from 'student ***'
+C:\Users\Діма\source\repos\vipz2\vipz2\func.c(143,29): warning C4024: 'deleteStart': different types for formal and actual parameter 1
+C:\Users\Діма\source\repos\vipz2\vipz2\func.c(133,1): warning C4047: 'initializing': 'student *' differs in levels of indirection from 'student **'
+  main.c
+C:\Users\Діма\source\repos\vipz2\vipz2\main.c(10,52): warning C4013: 'malloc' undefined; assuming extern returning int
+C:\Users\Діма\source\repos\vipz2\vipz2\main.c(27,46): warning C4013: 'calloc' undefined; assuming extern returning int
+C:\Users\Діма\source\repos\vipz2\vipz2\main.c(34,24): warning C4047: 'function': 'student **' differs in levels of indirection from 'student *'
+C:\Users\Діма\source\repos\vipz2\vipz2\main.c(34,19): warning C4024: 'includeToList': different types for formal and actual parameter 1
+C:\Users\Діма\source\repos\vipz2\vipz2\main.c(37,28): warning C4047: 'function': 'student **' differs in levels of indirection from 'student *'
+C:\Users\Діма\source\repos\vipz2\vipz2\main.c(37,23): warning C4024: 'DeleteLessAverage': different types for formal and actual parameter 1
+  Generating Code...
+C:\Users\Діма\source\repos\vipz2\vipz2\func.c(29): warning C4715: 'AddToBeg': not all control paths return a value
+C:\Users\Діма\source\repos\vipz2\vipz2\func.c(50): warning C4716: 'AddToEnd': must return a value
+  vipz2.vcxproj -> C:\Users\Діма\source\repos\vipz2\Debug\vipz2.exe
