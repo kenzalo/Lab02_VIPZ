@@ -1,4 +1,31 @@
 #include"Header.h"
+struct student* ReadStudents(FILE* input)
+{
+    struct student* start = (struct student*)malloc(sizeof(struct student));
+    struct student* p = start;
+    struct student* pTemp = NULL;
+    while (!feof(input))
+    {
+        fread(p->name, sizeof(char), 50, input);
+        if (!feof(input))
+        {
+            fread(p->surname, sizeof(char), 50, input);
+            fread(&(p->day), sizeof(int), 1, input);
+            fread(&(p->month), sizeof(int), 1, input);
+            fread(&(p->year), sizeof(int), 1, input);
+            fread(&(p->s1), sizeof(int), 1, input);
+            fread(&(p->s2), sizeof(int), 1, input);
+            fread(&(p->s3), sizeof(int), 1, input);
+            fread(&(p->s4), sizeof(int), 1, input);
+            fread(&(p->s5), sizeof(int), 1, input);
+            p->next = (struct student*)calloc(1, sizeof(struct student));
+            p = p->next;
+            p->next = NULL;
+        }
+
+    }
+    return start;
+}
 void deleteInside(struct student** pH, struct student** temp)
 {
     (*temp)->next = (*pH)->next;
@@ -48,7 +75,6 @@ int AddToEnd(struct student** start, struct student* pNewElement)
 
     }
 }
-
 void printflist(struct student* start)
 {
     struct student* l = start;

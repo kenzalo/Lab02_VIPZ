@@ -12,6 +12,7 @@ struct student {
     int s1, s2, s3, s4, s5;
     struct student* next;
 };
+struct student* ReadStudents(FILE* input);
 void printflist(struct student* start);
 void deleteInside(struct student** pH, struct student** temp);
 void deleteStart(struct student** pstart);
